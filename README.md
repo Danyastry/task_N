@@ -2,4 +2,4 @@ The application should contain a list of videos/clips (at least 10), and clickin
 
 The application architecture should be built on the basis of MVVM or MVI patterns using the components provided in Jetpack. Dependency injection technology should be used (Dagger 2, Hilt, Koin). Data from the remote server should be received using the Retrofit 2 library and cached (not the video files themselves, but information about them) in the database using Room. To work asynchronously with Room and Retrofit, you should use RxJava or Kotlin Coroutines.
 
-To create the UI, you can use both the View system and Jetpack Compose. The player itself should be created using the ExoPlayer or Media3 libraries. The code should be uploaded to GitHub or any other service that supports public repositories.
+To create the UI, you can use both the View system and Jetpack Compose. The player itself should be created using the ExoPlayer or Media3 libraries.
